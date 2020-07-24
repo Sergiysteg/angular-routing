@@ -1,0 +1,39 @@
+.main-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.text {
+  margin-top: 10px;
+  resize: none;
+  height: 100px;
+}
+
+.bad-words {
+  margin-top: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cenzore {
+  margin: 10px 0px;
+}
+
+.redWord {
+  color: red;
+}
+
+.borderRed {
+  border-color: red;
+}
+/*# sourceMappingURL=hm1.component.css.map */

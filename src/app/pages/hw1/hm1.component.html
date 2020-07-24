@@ -1,0 +1,38 @@
+<app-nav></app-nav>
+<div class="container-fluid main-block">
+    <div class="col-5 example-bs bg-light border rounded">
+        <form>
+            <div class="row">
+                <div class="col bad-words">
+                    <p><span class="bold">Bad words:</span><span class="redWord"
+                        *ngFor="let word of allBadWords">{{" " + word }}</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="email" class="form-control" [class.borderRed]="inpRed" name="badWord"
+                        [(ngModel)]="badWord" [placeholder]="inpPlacehold" autocomplete="off">
+                </div>
+                <div class="col-sm-auto">
+                    <input type="button" value="Add" class="btn btn-warning" (click)="addWord()">
+                </div>
+                <div class="col-sm-auto">
+                    <input type="button" value="Reset" class="btn btn-danger" (click)="resetForm()">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <textarea class="text col-12 form-control" [class.borderRed]="textRed" [(ngModel)]="textField"
+                        name="textField" [placeholder]="textPlacehold"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="button" value="Cenzore" class="col-12 btn btn-success cenzore"
+                        (click)="checkCenzore()">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

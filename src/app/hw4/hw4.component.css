@@ -1,0 +1,35 @@
+.inp-block {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.inp-field {
+  margin-right: 15px;
+}
+
+.table-head {
+  margin-top: 50px;
+}
+
+.sort-click:hover {
+  cursor: pointer;
+}
+
+thead th {
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+thead th span {
+  visibility: hidden;
+}
+
+thead th.active {
+  color: #000;
+}
+
+thead th.active span {
+  visibility: visible;
+}
+/*# sourceMappingURL=hw4.component.css.map */

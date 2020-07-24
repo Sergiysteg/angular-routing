@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,YAAY,CAAC;EACT,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "hw2.component.scss"
+    ],
+    "names": [],
+    "file": "hw2.component.css"
+}
